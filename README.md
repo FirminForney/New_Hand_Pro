@@ -2,7 +2,6 @@
 New Hand Pro : La main bionique open-source nouvelle génération
 Bienvenue sur le dépôt GitHub de New Hand Pro.  Ce projet, lauréat du concours Innovez de Science & Vie Junior 2025,  vise à rendre les mains bioniques de accessibles à tous, en combinant l'impression 3D, l'électronique et open-source.
 
-À propos de New Hand Pro
 New Hand Pro est une main bionique conçue pour être :
 
 Performante : Elle offre une précision et une force de préhension accrues grâce à de nouveaux moteurs et une mécanique optimisée.
