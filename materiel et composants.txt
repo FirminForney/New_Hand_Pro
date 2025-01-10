@@ -1,0 +1,43 @@
+
+Matériel nécessaire pour assembler New Hand Pro :
+
+Outils et équipement :
+
+-Un pistolet à colle chaude
+-Une pince coupante
+-Des ciseaux
+-Une imprimante 3D (ou accès à un service d’impression 3D)
+-Du fil de nylon résistant
+-De la colle forte liquide (pour assembler certains éléments)
+
+
+Composants :
+-Une carte ESP 32 type DevKit1 :
+https://fr.aliexpress.com/item/1005005704190069.html?spm=a2g0o.cart.0.0.4a05378dolbdsR&amp;mp=1&amp;gatewayAdapt=glo2fra
+ou https://www.amazon.fr/gp/product/B0CLCQ64W2/ref=ox_sc_act_title_1?smid=AQOJP59OJWBHK&amp;psc=1
+
+-Deux cellules de batterie 18650 : https://fr.aliexpress.com/item/1005008078553867.htmlspm=a2g0o.cart.0.0.4a05378dolbdsR&amp;mp=1&amp;gatewayAdapt=glo2fra
+
+-Un boîtier pour batterie 18650 (deux cellules) : https://fr.aliexpress.com/item/1005005449693883.html?spm=a2g0o.cart.0.0.4a05378dolbdsR&amp;mp=1&amp;gatewayAdapt=glo2fra
+
+-Un module L298N pour contrôle de moteur : https://www.amazon.fr/gp/product/B07DK6Q8F9/ref=ox_sc_act_title_2?smid=A3SCFTIO8CSK1X&amp;psc=1
+
+-10 câbles M/F de 75 mm (2 minimum) : https://www.gotronic.fr/art-10-câbles-m-f-75-mm-4573-37135.htm
+
+-10 câbles M/F de 300 mm (4 minimum) : https://www.gotronic.fr/art-10-câbles-m-f-300-mm-4579-37137.htm
+
+-10 câbles F/F de 300 mm (6 minimum) : https://www.gotronic.fr/art-10-câbles-f-f-300-mm-4578-37143.htm
+
+-Un bouton poussoir miniature : https://www.gotronic.fr/art-bp-subminiature-krs0612-4265.htm
+
+-Un servomoteur 180° de type 9g : https://www.gotronic.fr/art-servomoteur-180-df9gms-19377.htm
+
+-Un motoréducteur à courant continu type DG01D : https://www.gotronic.fr/art-paire-de-motoreducteurs-dg01d-18760.htm
+
+Note : Les liens fournis sont à titre informatif. Vous pouvez acheter le matériel ailleurs, mais la compatibilité n’est pas garantie si vous choisissez de le faire.
+
+
+
+
+
+
