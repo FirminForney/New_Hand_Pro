@@ -10,7 +10,7 @@ BluetoothSerial ESP_BT;
 #define pin2 25  // Moteur 1 - Sens de rotation 2
 #define pinP 26  // Moteur 1 - Commande d'allumage
 #define pinS 32  // Servo-moteur
-#define pinB1 35  // Bouton 1 (ouverture/fermeture automatique)
+#define pinB1 34  // Bouton 1 (ouverture/fermeture automatique)
 
 // Variables d'état
 int etatbp = 0;   // État du bouton 1 (0 = non pressé, 1 = pressé)
@@ -25,7 +25,7 @@ void setup() {
   pinMode(33, OUTPUT);      // Configuration des broches des moteurs en sortie
   pinMode(25, OUTPUT);
   pinMode(26, OUTPUT);
-  pinMode(35, INPUT_PULLUP); // Configuration de la broche du bouton en entrée avec résistance de pull-up
+  pinMode(34, INPUT_PULLUP); // Configuration de la broche du bouton en entrée avec résistance de pull-up
   servo1.attach(32);        // Attache le servo-moteur à la broche 32
 }
 
