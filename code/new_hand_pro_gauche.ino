@@ -58,7 +58,7 @@ void blue(){
 
   if (value == 10){          // Si la valeur est 10...
     Serial.print(value);     // Affichage de la valeur (debug)
-    servo1.write(0);       // Positionnement du servo-moteur à 180 degrés
+    servo1.write(180);       // Positionnement du servo-moteur à 180 degrés
     ouvrir();                // Ouverture de la main
   }
 
