@@ -80,6 +80,18 @@ void blue(){
     Serial.print(value);      // Affichage de la valeur (debug)
     fermer();                 // Fermeture de la main
     }
+  
+  if (value == 30){           // Si la valeur est 30...
+    servo1.write(180);         // Positionnement du servo-moteur à 180 degrés
+    Serial.print(value);      // Affichage de la valeur (debug)
+    ouvrir();                 // Ouverture de la main
+    }  
+
+  if (value == 31){           // Si la valeur est 31...
+    servo1.write(180);         // Positionnement du servo-moteur à 180 degrés
+    Serial.print(value);      // Affichage de la valeur (debug)
+    fermer();                 // Fermeture de la main
+    }
 }
 
 // Fonction pour détecter l'ouverture/fermeture via le capteur 
