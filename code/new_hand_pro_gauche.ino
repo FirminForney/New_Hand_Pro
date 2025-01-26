@@ -107,7 +107,7 @@ void detect_ouverture(){
     if(etat == 1){             // Si la main est fermée...
       Serial.println(etatbp);  // Affichage de l'état du bouton (debug)
       delay(2000);             // Délai de 2 secondes
-      servo1.write(0);      // Positionnement du servo-moteur
+      servo1.write(180);      // Positionnement du servo-moteur
       ouvrir();                // Ouverture de la main 
       etat = 0;                // Changement d'état de la main (ouverte)
       delay(1000);             // Délai d'une seconde
