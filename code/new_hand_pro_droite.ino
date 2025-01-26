@@ -58,7 +58,7 @@ void blue(){
 
   if (value == 10){          // Si la valeur est 10...
     Serial.print(value);     // Affichage de la valeur (debug)
-    servo1.write(0);       // Positionnement du servo-moteur à 180 degrés
+    servo1.write(0);       // Positionnement du servo-moteur à 0 degrés
     ouvrir();                // Ouverture de la main
   }
 
@@ -77,6 +77,18 @@ void blue(){
 
   if (value == 21){           // Si la valeur est 21...
     servo1.write(90);         // Positionnement du servo-moteur à 90 degrés
+    Serial.print(value);      // Affichage de la valeur (debug)
+    fermer();                 // Fermeture de la main
+    }
+
+   if (value == 30){           // Si la valeur est 30...
+    servo1.write(0);         // Positionnement du servo-moteur à 0 degrés
+    Serial.print(value);      // Affichage de la valeur (debug)
+    ouvrir();                 // Ouverture de la main
+    }  
+
+  if (value == 31){           // Si la valeur est 31...
+    servo1.write(0);         // Positionnement du servo-moteur à 0 degrés
     Serial.print(value);      // Affichage de la valeur (debug)
     fermer();                 // Fermeture de la main
     }
